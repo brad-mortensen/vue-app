@@ -10,6 +10,10 @@ export default {
     return {
       title: "UserProfile"
     };
+  },
+
+  mounted() {
+    console.log(this.$route);
   }
 };
 </script>
